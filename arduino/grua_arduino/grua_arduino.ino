@@ -10,9 +10,9 @@ SoftwareSerial debugSerial(RX_SOFT_PIN, TX_SOFT_PIN);
 
 
 // ---- Velocidades Máximas Configurables (PWM 0-255) ----
-const int MAX_SPEED_CARRO = 255;
-const int MAX_SPEED_ELEVACION = 255;
-const int MAX_SPEED_GIRO = 200;
+const int MAX_SPEED_CARRO = 200;
+const int MAX_SPEED_ELEVACION = 200;
+const int MAX_SPEED_GIRO = 150;
 
 // ---- Pines Joysticks ----
 const int JOY_X_PIN = A0;   // Carro
